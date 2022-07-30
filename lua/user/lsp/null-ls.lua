@@ -13,7 +13,7 @@ null_ls.setup({
 	debug = false,
 	sources = {
 		formatting.prettier.with({
-			extra_filetypes = { "toml" },
+			extra_filetypes = { "toml", "yml", "mardown" },
 			extra_args = {
 				"--print-width",
 				"80",
@@ -21,12 +21,10 @@ null_ls.setup({
 				"always",
 				"--single-quote",
 				"--fix",
-				"--jsx-single-quote",
 			},
 		}),
 		formatting.black.with({ extra_args = { "--fast" } }),
 		formatting.stylua,
-		-- formatting.google_java_format,
 		diagnostics.flake8,
 		diagnostics.eslint,
 	},

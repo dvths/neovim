@@ -13,7 +13,11 @@ local servers = {
   "jsonls",
   "yamlls",
   "rust_analyzer",
-  "taplo"
+  "taplo",
+  "dockerls",
+  "prismals",
+  "sqlls",
+  "prosemd_lsp"
 }
 
 lsp_installer.setup()
