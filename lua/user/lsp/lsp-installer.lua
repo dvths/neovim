@@ -17,7 +17,8 @@ local servers = {
   "dockerls",
   "prismals",
   "sqlls",
-  "prosemd_lsp"
+  "prosemd_lsp",
+  "csharp_ls"
 }
 
 lsp_installer.setup()

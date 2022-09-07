@@ -1,7 +1,7 @@
--- local colorscheme = "darkplus"
-local colorscheme = "no-clown-fiesta"
-vim.g.transparent_background = false
-vim.g.italic_comments = true
+local colorscheme = "darkplus"
+-- local colorscheme = "no-clown-fiesta"
+-- vim.g.transparent_background = true
+-- vim.g.italic_comments = true
 -- local colorscheme = "gruvbox-material"
 -- vim.g.gruvbox_material_background = "hard"
 -- vim.g.gruvbox_material_disable_italic_comment = 1
@@ -20,7 +20,6 @@ vim.g.italic_comments = true
 -- vim.g.gruvbox_material_statusline_style = "default"
 -- vim.g.gruvbox_material_lightline_disable_bold = 0
 -- vim.g.gruvbox_material_palette = "material"
---
 local status_ok, _ = pcall(vim.cmd, "colorscheme " .. colorscheme)
 if not status_ok then
   return
