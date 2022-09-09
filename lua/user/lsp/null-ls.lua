@@ -13,10 +13,10 @@ null_ls.setup({
 	debug = false,
 	sources = {
 		formatting.prettier.with({
-			extra_filetypes = { "toml", "yml", "mardown" },
+			extra_filetypes = { "toml", "yml", "markdown", "md" },
 			extra_args = {
 				"--print-width",
-				"80",
+				"100",
 				"--prose-wrap",
 				"always",
 				"--single-quote",

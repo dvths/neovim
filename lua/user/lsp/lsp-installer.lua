@@ -18,7 +18,8 @@ local servers = {
   "prismals",
   "sqlls",
   "prosemd_lsp",
-  "csharp_ls"
+  "csharp_ls",
+  "prosemd_lsp"
 }
 
 lsp_installer.setup()
