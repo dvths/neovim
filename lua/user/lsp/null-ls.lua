@@ -16,7 +16,7 @@ null_ls.setup({
 			extra_filetypes = { "toml", "yml", "markdown", "md" },
 			extra_args = {
 				"--print-width",
-				"100",
+				"80",
 				"--prose-wrap",
 				"always",
 				"--single-quote",

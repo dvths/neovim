@@ -26,8 +26,8 @@ vim.api.nvim_create_autocmd({ "FileType" }, {
 	callback = function()
 		vim.opt_local.wrap = true
 		vim.opt_local.spell = true
-		vim.opt.textwidth = 100
-		vim.opt.colorcolumn = "100"
+		vim.opt.textwidth = 80
+		vim.opt.colorcolumn = "80"
 	end,
 })
 
