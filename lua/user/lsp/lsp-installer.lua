@@ -19,7 +19,8 @@ local servers = {
   "sqlls",
   "prosemd_lsp",
   "csharp_ls",
-  "prosemd_lsp"
+  "prosemd_lsp",
+  "gopls"
 }
 
 lsp_installer.setup()
@@ -99,3 +100,5 @@ for _, server in pairs(servers) do
   lspconfig[server].setup(opts)
   ::continue::
 end
+
+lspconfig.csharp_ls.setup{}
